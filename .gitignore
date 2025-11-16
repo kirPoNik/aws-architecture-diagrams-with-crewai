@@ -75,9 +75,6 @@ crew_output/
 # Output files
 output/
 diagrams/
-*.png
-*.jpg
-*.svg
 *.pdf
 logs/
 *.log
