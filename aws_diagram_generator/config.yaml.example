@@ -1,0 +1,8 @@
+targets:
+  - name: "Test Env"
+    region: "us-east-1"
+    tags:
+      - Key: "env"
+        Value: "us6"
+      - Key: "product"
+        Value: "core"

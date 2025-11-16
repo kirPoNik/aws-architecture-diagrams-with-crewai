@@ -1,0 +1,13 @@
+# Configuration for aws_diagram_generator
+# This file tells the generator which resources to scan and document
+
+targets:
+  - name: "Demo Web Application"
+    region: "us-east-1"
+    tags:
+      # All resources must have ALL these tags to be included
+      # These match the tags defined in common/tags.yaml
+      - Key: "Environment"
+        Value: "demo"
+      - Key: "Application"
+        Value: "web-app"
